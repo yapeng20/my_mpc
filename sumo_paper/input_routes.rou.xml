@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- <routes>
+    <vType id="type1" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="70"/>
+
+    <vehicle id="0" type="type1" depart="0" color="1,0,0">
+      <route edges="E0 E1 E2 E3"/>
+    </vehicle>
+
+</routes> -->
+
+<routes>
+    <vType id="type1" accel="0.5" decel="0.5" sigma="0.5" length="5" maxSpeed="70" />
+	<!-- <vType id="type1" accel="0.6" decel="1" sigma="0.5" length="5" maxSpeed="70" /> -->
+
+    <route id="route0" color="1,1,0" edges="E0 E1 E2 E3 E4 E5 E6 E7"/>
+
+    <vehicle id="0" type="type1" route="route0" depart="0" color="1,0,0" vClass="truck" departSpeed="13.88888889"/>
+	    <!-- <vehicle id="0" type="type1" route="route0" depart="0" color="1,0,0" vClass="truck" departPos="-5.1"/> -->
+	<!-- <vehicle id="1" type="type1" route="route0" depart="0" color="1,0,0" vClass="passenger"/> -->
+    <!-- <vehicle id="1" type="type1" route="route0" depart="0" color="0,1,0"/> -->
+
+</routes>
+
+
+<!-- <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+	
+	<vType id="DEFAULT_VEHTYPE" sigma="0">
+	    <param key="parking.distance.weight" value="1"/>
+    </vType>
+	
+    <route id="route1" edges="a b">
+		<stop index="0" parkingArea="ParkAreaA" duration="2" parking="true"/>
+		<stop index="1" parkingArea="ParkAreaB" duration="2" parking="true"/>
+    </route>
+
+    <vehicle id="v0" depart="0" route="route1" departPos="190"/>
+	
+	
+</routes> -->

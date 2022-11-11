@@ -1,0 +1,6 @@
+Parameter为前处理文件，加载发动机、电机MG1和电机MG2参数。
+Model_2AMT_shuchu_2015b 为仿真模型，版本R2015b。
+Post_Process为后处理文件，输出发动机、电机MG1、电机MG2工作点图像和燃油消耗值。
+
+
+
